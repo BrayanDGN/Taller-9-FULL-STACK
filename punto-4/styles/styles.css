@@ -1,0 +1,11 @@
+.colores{
+    display: flex;
+    margin-left: 550px;
+    color: blue;
+    font-size: 45px;
+    font-weight: bold;  
+}
+
+.rojo{
+    color: red;
+}
