@@ -1,0 +1,24 @@
+#section-2{
+    margin:0px -100px;
+    padding: 80px 180px;
+    background-color:#ed80fd26;;
+}
+
+#imagen-1{
+    margin-right: 55px;
+}
+
+#imagen-2{
+    margin-left: 55px;
+}
+
+.section-2_info{
+    display: flex;
+    margin: 70px 0px;
+    gap: 35pxx;
+}
+
+.section-2-h2{
+    margin-top: -30px;
+    color: #ed80fd;
+}

@@ -1,0 +1,34 @@
+body{
+    margin: 0 100px;
+    font-family: Jost;
+}
+
+a{
+    font-size: 18px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #454868;
+}
+
+button{
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+.buttom_saber{
+    background-color: #FD909E;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 48px;
+    color:#454868;
+    line-height: 55px;
+}

@@ -12,3 +12,9 @@
         src="./public/images/HTML.png" 
         alt="HTML"
 >
+
+<H2>Punto 3: CSS</H2>
+<img 
+        src="./public/images/CSS.png" 
+        alt="CSS"
+>

@@ -6,7 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pagina Proyecto</title>
         <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
-        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./styles/global_styles.css">
+        <link rel="stylesheet" href="./styles/header_styles.css">
+        <link rel="stylesheet" href="./styles/banner_styles.css">
+        <link rel="stylesheet" href="./styles/section-1_styles.css">
+        <link rel="stylesheet" href="./styles/section-2_styles.css">
+        <link rel="stylesheet" href="./styles/footer_styles.css">
     </head>
     <body>
       <header>
@@ -71,7 +76,7 @@
                 >
                 <h3> Educación y virtualidad</h3>
             </div>
-            <div class="cards">
+            <div class="cards card-down">
                 <h3> Alcance de objetivos</h3>
                 <img 
                     src="./public/images/section1-goals.png" 
@@ -92,8 +97,8 @@
 
         </section>
         <section id="section-2">
-            <div>
-                <img 
+            <div class="section-2_info">
+                <img id="imagen-1"
                     src="./public/images/section2-tools.png" 
                     alt="tools"
                     width="500"
@@ -101,9 +106,9 @@
                 >
                 <div>
                     <div> 
-                        <h2>Brindamos herramientas para que 
+                        <h2 >Brindamos herramientas para que 
                             tu aprendizaje </h2>
-                        <h2>sea efectivo</h2>
+                        <h2 class="section-2-h2">sea efectivo</h2>
                         <p>Las herramientas digitales son nuestras aliadas
                            y aprovechamos cada una de estas para brindarte 
                            la mejor experiencia en línea.
@@ -113,17 +118,17 @@
                 </div>
 
             </div>
-            <div>
+            <div class="section-2_info">
                 <div> 
                     <h2>Educación pensando en </h2>
-                    <h2>objetivos alcanzados</h2>
+                    <h2 class="section-2-h2">objetivos alcanzados</h2>
                     <p>Las herramientas digitales son nuestras aliadas 
                         y aprovechamos cada una de estas para brindarte 
                         la mejor experiencia en línea.
                     </p>
                     <button class="buttom_saber"><a href=""></a> Saber más</button>
                 </div>
-                <img 
+                <img id="imagen-2"
                     src="./public/images/section2-goals.png" 
                     alt="tools"
                     width="500"
@@ -133,7 +138,7 @@
         </section>
       </main>
       <footer id="footer">
-        <div>
+        <div class="footer_info">
             <img 
                 src="./public/images/footer-logo.png" 
                 alt="footer-logo"
@@ -152,7 +157,7 @@
                         name="user_name"                   
                         placeholder="Correo Electrónico"  
                     >
-                    <button>Subscribirse</button>
+                    <button class="buttom_footer">Subscribirse</button>
                 </form>
                 
             </div>
