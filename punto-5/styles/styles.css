@@ -1,0 +1,55 @@
+body{
+    margin: 100px 300px;
+}
+
+header span{
+    font-family:sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subrayado-verde{
+    color: green;
+    text-decoration: underline;
+}
+
+.coloreado-rojo{
+    color: red;
+}
+
+.doble_linea{
+    text-decoration: underline overline ;
+}
+
+.grande{
+    font-size: xx-large;
+}
+
+.coloreado-azul{
+    color: blue;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 15px;
+    border-radius: 50px 10px 10px 50px;
+    background-color: rgb(64, 64, 230);
+}
+
+a:hover{
+    background-color: #090b8b;
+}
+
