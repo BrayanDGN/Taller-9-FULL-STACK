@@ -1,0 +1,50 @@
+nav{
+    margin: 30px 50px;
+    padding: 20px 0px;
+    background-color:rgb(230, 72, 195) ;
+}   
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+#buttom{
+    padding: 15px 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+#buttom:hover{
+    background-color: rgb(52, 60, 131);
+}
+
+div a{
+    margin: 20px 50px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 15px;
+    border-radius: 50px 10px 10px 50px;
+    background-color: rgb(161, 4, 4);
+}
+
+div a:hover{
+    background-color: #ee5b5b;
+}
