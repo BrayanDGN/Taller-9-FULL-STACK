@@ -1,0 +1,50 @@
+table{
+    margin: 200px;
+    display: grid;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: max-content;
+
+}
+
+td{
+    border: 1px dashed #000;
+    align-items: center;
+   
+}
+
+.td1{
+    border-right: none;
+    border-bottom: none;
+}
+
+.td2{
+    border-bottom: none;
+}
+
+.titulo{
+    border-left: none;
+}
+
+.title{
+    color: red;
+    font-weight:700;
+}
+
+div a{
+    margin: 20px 200px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 15px;
+    border-radius: 50px 10px 10px 50px;
+    background-color: rgb(69, 201, 139) ;
+}
+
+div a:hover{
+    background-color: #088b13;
+}
